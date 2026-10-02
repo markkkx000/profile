@@ -46,8 +46,8 @@ function Footer() {
                   href={href}
                   className="footer__contact-link"
                   aria-label={label}
-                  target={href.startsWith('http') ? '_blank' : undefined}
-                  rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="footer__contact-icon">
                     <FontAwesomeIcon icon={icon} />

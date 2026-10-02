@@ -56,8 +56,8 @@ function Hero() {
                 className="hero__social-link"
                 aria-label={label}
                 title={label}
-                target={href.startsWith('http') ? '_blank' : undefined}
-                rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={icon} />
                 <span>{label}</span>
