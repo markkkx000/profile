@@ -1,0 +1,101 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-xl);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+  animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.project-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+/* Header */
+.project-card__header {
+  margin-bottom: var(--space-md);
+}
+
+.project-card__name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.project-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-primary);
+  transition: color var(--transition-fast);
+}
+
+.project-card__link:hover {
+  color: var(--accent);
+}
+
+.project-card__external-icon {
+  font-size: 0.7rem;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+.project-card:hover .project-card__external-icon {
+  opacity: 0.6;
+  transform: translateX(0);
+}
+
+/* Description */
+.project-card__description {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: var(--space-lg);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Meta (language, stars, forks) */
+.project-card__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border);
+}
+
+.project-card__language {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.project-card__language-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.project-card__stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.project-card__stat svg {
+  font-size: 0.7rem;
+}

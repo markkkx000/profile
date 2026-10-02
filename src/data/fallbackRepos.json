@@ -1,0 +1,74 @@
+[
+  {
+    "name": "portfolio",
+    "description": "My personal developer portfolio built with React + Vite. Showcases pinned GitHub repos, skills, and contact info.",
+    "url": "https://github.com/markkkx000/portfolio",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    "stargazerCount": 0,
+    "forkCount": 0
+  },
+  {
+    "name": "react-native-app",
+    "description": "A cross-platform mobile application built with React Native and Expo, featuring authentication, real-time data sync, and push notifications.",
+    "url": "https://github.com/markkkx000/react-native-app",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    "stargazerCount": 12,
+    "forkCount": 3
+  },
+  {
+    "name": "express-api",
+    "description": "RESTful API service built with Express.js and PostgreSQL. Includes JWT auth, rate limiting, input validation, and comprehensive test coverage.",
+    "url": "https://github.com/markkkx000/express-api",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    "stargazerCount": 8,
+    "forkCount": 2
+  },
+  {
+    "name": "supabase-dashboard",
+    "description": "Real-time analytics dashboard powered by Supabase and React. Features live data subscriptions, role-based access, and interactive charts.",
+    "url": "https://github.com/markkkx000/supabase-dashboard",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "TypeScript",
+      "color": "#3178c6"
+    },
+    "stargazerCount": 5,
+    "forkCount": 1
+  },
+  {
+    "name": "node-cli-tool",
+    "description": "A developer-friendly CLI toolkit for scaffolding projects, managing configs, and automating repetitive workflows.",
+    "url": "https://github.com/markkkx000/node-cli-tool",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    "stargazerCount": 3,
+    "forkCount": 0
+  },
+  {
+    "name": "pg-migrations",
+    "description": "Lightweight PostgreSQL migration runner with rollback support, seed data management, and CI/CD integration helpers.",
+    "url": "https://github.com/markkkx000/pg-migrations",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "SQL",
+      "color": "#e38c00"
+    },
+    "stargazerCount": 2,
+    "forkCount": 0
+  }
+]
