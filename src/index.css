@@ -1,29 +1,28 @@
 /* ======================================
    Design Tokens & CSS Custom Properties
+   Catppuccin Latte (light) / Mocha (dark)
    ====================================== */
 
 :root {
-  /* Accent palette — indigo */
-  --accent-hue: 239;
-  --accent-sat: 84%;
-  --accent: hsl(var(--accent-hue), var(--accent-sat), 67%);
-  --accent-hover: hsl(var(--accent-hue), var(--accent-sat), 58%);
-  --accent-subtle: hsla(var(--accent-hue), var(--accent-sat), 67%, 0.12);
+  /* Accent — Catppuccin Mauve */
+  --accent: #8839ef;
+  --accent-hover: #7529d9;
+  --accent-subtle: rgba(136, 57, 239, 0.1);
 
-  /* Light-mode surface & text */
-  --bg-primary: #f8f9fc;
-  --bg-secondary: #ffffff;
-  --bg-card: #ffffff;
-  --text-primary: #1a1d2e;
-  --text-secondary: #5a5f7a;
-  --text-muted: #8b90a8;
-  --border: #e2e4ed;
-  --border-hover: #c8cbe0;
+  /* Catppuccin Latte surfaces */
+  --bg-primary: #eff1f5;
+  --bg-secondary: #e6e9ef;
+  --bg-card: #eff1f5;
+  --text-primary: #4c4f69;
+  --text-secondary: #5c5f77;
+  --text-muted: #6c6f85;
+  --border: #ccd0da;
+  --border-hover: #bcc0cc;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.04);
-  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 3px rgba(76, 79, 105, 0.06), 0 1px 2px rgba(76, 79, 105, 0.04);
+  --shadow-md: 0 4px 12px rgba(76, 79, 105, 0.08), 0 2px 4px rgba(76, 79, 105, 0.04);
+  --shadow-lg: 0 12px 40px rgba(76, 79, 105, 0.1), 0 4px 12px rgba(76, 79, 105, 0.06);
 
   /* Spacing scale */
   --space-xs: 0.25rem;
@@ -56,23 +55,26 @@
 }
 
 /* ======================================
-   Dark Mode
+   Dark Mode — Catppuccin Mocha
    ====================================== */
 
 [data-theme='dark'] {
-  --bg-primary: #0f1117;
-  --bg-secondary: #161822;
-  --bg-card: #1c1e2e;
-  --text-primary: #e8eaf0;
-  --text-secondary: #a0a4b8;
-  --text-muted: #6b7090;
-  --border: #2a2d40;
-  --border-hover: #3d4160;
-  --accent-subtle: hsla(var(--accent-hue), var(--accent-sat), 67%, 0.1);
+  --accent: #cba6f7;
+  --accent-hover: #b58bf5;
+  --accent-subtle: rgba(203, 166, 247, 0.1);
 
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.15);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.15);
-  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.2);
+  --bg-primary: #1e1e2e;
+  --bg-secondary: #181825;
+  --bg-card: #313244;
+  --text-primary: #cdd6f4;
+  --text-secondary: #bac2de;
+  --text-muted: #a6adc8;
+  --border: #313244;
+  --border-hover: #45475a;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 /* ======================================

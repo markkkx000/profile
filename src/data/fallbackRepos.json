@@ -1,74 +1,62 @@
 [
   {
-    "name": "portfolio",
-    "description": "My personal developer portfolio built with React + Vite. Showcases pinned GitHub repos, skills, and contact info.",
-    "url": "https://github.com/markkkx000/portfolio",
-    "homepageUrl": "",
+    "name": "profile",
+    "description": "My personal developer portfolio built with React + Vite, deployed to GitHub Pages.",
+    "url": "https://github.com/markkkx000/profile",
+    "homepageUrl": "https://markkkx000.github.io/profile/",
     "primaryLanguage": {
-      "name": "JavaScript",
-      "color": "#f1e05a"
+      "name": "CSS",
+      "color": "#663399"
     },
     "stargazerCount": 0,
     "forkCount": 0
   },
   {
-    "name": "react-native-app",
-    "description": "A cross-platform mobile application built with React Native and Expo, featuring authentication, real-time data sync, and push notifications.",
-    "url": "https://github.com/markkkx000/react-native-app",
-    "homepageUrl": "",
-    "primaryLanguage": {
-      "name": "JavaScript",
-      "color": "#f1e05a"
-    },
-    "stargazerCount": 12,
-    "forkCount": 3
-  },
-  {
-    "name": "express-api",
-    "description": "RESTful API service built with Express.js and PostgreSQL. Includes JWT auth, rate limiting, input validation, and comprehensive test coverage.",
-    "url": "https://github.com/markkkx000/express-api",
-    "homepageUrl": "",
-    "primaryLanguage": {
-      "name": "JavaScript",
-      "color": "#f1e05a"
-    },
-    "stargazerCount": 8,
-    "forkCount": 2
-  },
-  {
-    "name": "supabase-dashboard",
-    "description": "Real-time analytics dashboard powered by Supabase and React. Features live data subscriptions, role-based access, and interactive charts.",
-    "url": "https://github.com/markkkx000/supabase-dashboard",
+    "name": "darpo-albay-hr-portal",
+    "description": "Modern HRIS originally built for DARPO Albay. Co-engineered using Laravel 13, Inertia.js, and PostgreSQL (Supabase).",
+    "url": "https://github.com/markkkx000/darpo-albay-hr-portal",
     "homepageUrl": "",
     "primaryLanguage": {
       "name": "TypeScript",
       "color": "#3178c6"
     },
-    "stargazerCount": 5,
-    "forkCount": 1
-  },
-  {
-    "name": "node-cli-tool",
-    "description": "A developer-friendly CLI toolkit for scaffolding projects, managing configs, and automating repetitive workflows.",
-    "url": "https://github.com/markkkx000/node-cli-tool",
-    "homepageUrl": "",
-    "primaryLanguage": {
-      "name": "JavaScript",
-      "color": "#f1e05a"
-    },
-    "stargazerCount": 3,
+    "stargazerCount": 0,
     "forkCount": 0
   },
   {
-    "name": "pg-migrations",
-    "description": "Lightweight PostgreSQL migration runner with rollback support, seed data management, and CI/CD integration helpers.",
-    "url": "https://github.com/markkkx000/pg-migrations",
+    "name": "iot-smart-meter",
+    "description": "IoT networked energy monitoring system thesis capstone. ESP32-based with MQTT backend on Raspberry Pi and an Android companion app.",
+    "url": "https://github.com/markkkx000/iot-smart-meter",
     "homepageUrl": "",
     "primaryLanguage": {
-      "name": "SQL",
-      "color": "#e38c00"
+      "name": "Kotlin",
+      "color": "#A97BFF"
     },
-    "stargazerCount": 2,
+    "stargazerCount": 0,
+    "forkCount": 0
+  },
+  {
+    "name": "dotfiiles",
+    "description": "Arch Linux desktop environment dotfiles and configuration for automated workstation setup.",
+    "url": "https://github.com/markkkx000/dotfiiles",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "GLSL",
+      "color": "#5686a5"
+    },
+    "stargazerCount": 0,
+    "forkCount": 0
+  },
+  {
+    "name": "achievements",
+    "description": "Collection of certifications, academic achievements, and professional development records.",
+    "url": "https://github.com/markkkx000/achievements",
+    "homepageUrl": "",
+    "primaryLanguage": {
+      "name": "Markdown",
+      "color": "#083fa1"
+    },
+    "stargazerCount": 0,
     "forkCount": 0
   }
 ]

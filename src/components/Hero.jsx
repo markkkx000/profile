@@ -25,7 +25,7 @@ const SOCIAL_LINKS = [
   {
     id: 'resume',
     label: 'Resume',
-    href: '/resume.pdf',
+    href: `${import.meta.env.BASE_URL}resume.pdf`,
     icon: faFileLines,
   },
 ];
